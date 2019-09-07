@@ -17,12 +17,6 @@
 
 */
 import Dashboard from "views/Dashboard.jsx";
-import Notifications from "views/Notifications.jsx";
-import Icons from "views/Icons.jsx";
-import Typography from "views/Typography.jsx";
-import TableList from "views/Tables.jsx";
-import Maps from "views/Map.jsx";
-import UserPage from "views/User.jsx";
 import AddProduct from "views/addProduct.jsx";
 import AppVersion from "views/version.jsx";
 // import UpgradeToPro from "views/Upgrade.jsx";
@@ -43,19 +37,12 @@ var routes = [
     layout: "/admin"
   },
   {
-    path: "/user-page",
-    name: "User Profile",
-    icon: "nc-icon nc-single-02",
-    component: UserPage,
-    layout: "/admin"
-  },
-  {
     path: "/info",
     name: "App version",
     icon: "nc-icon nc-alert-circle-i",
     component: AppVersion,
     layout: "/admin"
-  } 
+  }
   // {
   //   path: "/icons",
   //   name: "Icons",

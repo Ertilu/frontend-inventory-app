@@ -51,12 +51,6 @@ class Dashboard extends React.Component {
     };
   }
 
-  handlerChange = (e) => {
-    this.setState({ [e.target.name] : e.target.value })
-    localStorage.setItem('setPage', this.state.page);
-    localStorage.getItem('setPage');
-  }
-
   componentDidMount() {
     let data = [
       localStorage.getItem('search'), 
@@ -64,7 +58,7 @@ class Dashboard extends React.Component {
       localStorage.getItem('type'),
       localStorage.getItem('page')
     ];  
-    console.log(data[3]);
+
     const products = this.getProducts(data);
       this.setState({
         products, 
@@ -74,13 +68,20 @@ class Dashboard extends React.Component {
      localStorage.removeItem('type');
   }
 
+  handlerChange = (e) => {
+    this.setState({ [e.target.name] : e.target.value })
+    localStorage.setItem('setPage', this.state.page);
+    localStorage.getItem('setPage');
+    
+  }
+
   getProducts(data) {
     const whatSearch = '?name='+data[0];
     const searchValue = data[0] !== null ? whatSearch : '?name=';
 
-    const type = data[2] === null ? 'ASC' : 'DESC';
+    const type = data[2] === null ? 'ASC' : data[2];
     
-    const orderBy = data[0] !== null ? '&by='+data[1]+'&type='+type : '&by=pId&type=ASC';
+    const orderBy = data[1] !== null ? '&by='+data[1]+'&type='+type : '&by=pId&type=ASC';
 
     const page = '&page='+data[3];
 
@@ -95,6 +96,7 @@ class Dashboard extends React.Component {
         description: `${product.pDesc}`,
         quantity: `${product.pQty}`,
         image: `${product.pImage}`,
+        idCategory: `${product.idCategory}`,
         category: `${product.category}`,
         dateAdded: `${product.pDateAdded}`,
         dateUpdated: `${product.pDateUpdated}`

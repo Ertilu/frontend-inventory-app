@@ -26,8 +26,6 @@ import Footer from "components/Footer/Footer.jsx";
 import Sidebar from "components/Sidebar/Sidebar.jsx";
 import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
 
-import EditProduct from "views/editProduct";
-
 import routes from "routes.js";
 
 var ps;
@@ -37,7 +35,7 @@ class Dashboard extends React.Component {
     super(props);
     this.state = {
       backgroundColor: "black",
-      activeColor: "info"
+      activeColor: "info",
     };
     this.mainPanel = React.createRef();
   }
@@ -46,6 +44,21 @@ class Dashboard extends React.Component {
       ps = new PerfectScrollbar(this.mainPanel.current);
       document.body.classList.toggle("perfect-scrollbar-on");
     }
+    // const id = localStorage.getItem('id');
+   
+    // const res = axios 
+    //               .get("http://localhost:8000/products/" + id)
+
+    // this.setState({
+    //   pName: res.data.values[0].pName,
+    //   pDesc: res.data.values[0].pDesc,
+    //   pImage: res.data.values[0].pImage,
+    //   idCategory: res.data.values[0].idCategory,
+    //   pQty: res.data.values[0].pQty,
+    //   pDateAdded: new Date(),
+    //   pDateUpdated: new Date(),
+    // })
+    // console.log(this.state);
   }
   componentWillUnmount() {
     if (navigator.platform.indexOf("Win") > -1) {
@@ -86,10 +99,6 @@ class Dashboard extends React.Component {
                 />
               );
             })}
-            <Route
-              path="/editProduct"
-              component={EditProduct}
-            />
           </Switch>
           <Footer fluid />
         </div>
