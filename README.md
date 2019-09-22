@@ -10,7 +10,7 @@ This app help you to manage your inventory you can add your product, edit produc
 
 | React JS | Node JS | Template By | Database Management | Code Editor |
 | --- | --- | --- | --- | --- |
-| [![React JS](https://cdn.auth0.com/blog/react-js/react.png)](https://reactjs.org) | [![Node JS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)](https://demos.creative-tim.com/paper-dashboard-react/#/user-page) | [![Creative Tim ](https://demos.creative-tim.com/paper-dashboard/assets/img/logo-small.png)](https://demos.creative-tim.com/paper-dashboard-react/#/table-list) | ![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png) | [![Code Editor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png)](https://demos.creative-tim.com/paper-dashboard-react/#/notifications)
+| [![React JS](https://cdn.auth0.com/blog/react-js/react.png)](https://reactjs.org) | [![Node JS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)](https://nodejs.org/en/) | [![Creative Tim ](https://demos.creative-tim.com/paper-dashboard/assets/img/logo-small.png)](https://www.creative-tim.com/) | [![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png)](https://www.mysql.com/) | [![Code Editor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png)](https://code.visualstudio.com/)
 
 ## Table of Contents
 
@@ -27,12 +27,13 @@ https://github.com/Ertilu/restful-api-inventory-app
 
 Quick start options:
 
-- `npm i paper-dashboard-react`
 - Clone the repo: `git clone https:/https://github.com/Ertilu/frontend-inventory-app.git`.
+- `npm/yarn install frontend-inventory-app`
 - Clone the backend server: `https://github.com/Ertilu/restful-api-inventory-app.git`.
+- `npm/yarn install restful-api-inventory-app`
 - Import database "db_nventory.sql".
-- Run the backend node app.
-- Run the app npm start.
+- Run the backend `node app`.
+- Run the app `npm start`.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
