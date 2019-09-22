@@ -14,7 +14,7 @@ This app help you to manage your inventory
 
 ## Table of Contents
 
-* [Quick Start](#How to run the app)
+* [Quick Start](#How-to-run-the-app)
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
