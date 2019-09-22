@@ -14,8 +14,6 @@ This app help you to manage your inventory
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
 * [Quick Start](#quick-start)
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
