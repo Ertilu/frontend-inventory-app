@@ -14,7 +14,7 @@ This app help you to manage your inventory
 
 ## Table of Contents
 
-* [Quick Start](#quick-start)
+* [Quick Start](#How to run the app)
 * [Documentation](#documentation)
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
@@ -23,6 +23,14 @@ This app help you to manage your inventory
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
+
+## How to run the app
+Quick start options:
+
+- `npm i paper-dashboard-react`
+- Clone the repo: `git clone https:/https://github.com/Ertilu/frontend-inventory-app.git`.
+- [Download from Github](https://github.com/https://github.com/Ertilu/frontend-inventory-app).
+- [Download from Creative Tim](https://www.creative-tim.com/product/paper-dashboard-react).
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -91,26 +99,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-| HTML | React |
-| --- | --- |
-| [![Paper Dashboard 2 HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/thumb/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2) | [![Paper Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/98/thumb/opt_pd_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-react) |
-
-## Quick start
-
-Quick start options:
-
-- `npm i paper-dashboard-react`
-- Clone the repo: `git clone https://github.com/creativetimofficial/paper-dashboard-react.git`.
-- [Download from Github](https://github.com/creativetimofficial/paper-dashboard-react/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/paper-dashboard-react).
-
-
-## Documentation
-The documentation for the Paper Dashboard React is hosted at our [website](https://demos.creative-tim.com/paper-dashboard-react/#/documentation/tutorial).
-
 
 ## File Structure
 
