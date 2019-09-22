@@ -10,7 +10,7 @@ This app help you to manage your inventory you can add your product, edit produc
 
 | React JS | Node JS | Template By | Database Management | Code Editor |
 | --- | --- | --- | --- | --- |
-| ![React JS](https://cdn.auth0.com/blog/react-js/react.png) | [![Node JS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)](https://demos.creative-tim.com/paper-dashboard-react/#/user-page) | [![Creative Tim ](https://demos.creative-tim.com/paper-dashboard/assets/img/logo-small.png)](https://demos.creative-tim.com/paper-dashboard-react/#/table-list) | ![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png) | [![Code Editor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png)](https://demos.creative-tim.com/paper-dashboard-react/#/notifications)
+| [![React JS](https://cdn.auth0.com/blog/react-js/react.png)](https://reactjs.org) | [![Node JS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png)](https://demos.creative-tim.com/paper-dashboard-react/#/user-page) | [![Creative Tim ](https://demos.creative-tim.com/paper-dashboard/assets/img/logo-small.png)](https://demos.creative-tim.com/paper-dashboard-react/#/table-list) | ![MySQL](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png) | [![Code Editor](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png)](https://demos.creative-tim.com/paper-dashboard-react/#/notifications)
 
 ## Table of Contents
 
