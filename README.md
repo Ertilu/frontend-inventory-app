@@ -16,10 +16,7 @@ This app help you to manage your inventory you can add your product, edit produc
 
 * [How to run the app](#How-to-run-the-app)
 * [Features](#features)
-* [File Structure](#file-structure)
 * [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Licensing](#licensing)
 
 ## How to run the app
 Backend server :
@@ -72,92 +69,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 - Add product
 
 
-## File Structure
-
-Within the download you'll find the following directories and files:
-
-```
-├── CHANGELOG.md
-├── ISSUE_TEMPLATE.md
-├── LICENSE.md
-├── README.md
-├── docs
-│   └── documentation.html
-├── jsconfig.json
-├── package.json
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-└── src
-    ├── index.js
-    ├── logo-white.svg
-    ├── logo.svg
-    ├── routes.js
-    ├── components
-    |   |── auth
-    │   │   |── authHelper.js
-    │   │   └── withAuth.js
-    │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
-    │   ├── Footer
-    │   │   └── Footer.jsx
-    │   ├── Navbars
-    │   │   └── DemoNavbar.jsx
-    │   └── Sidebar
-    │       └── Sidebar.jsx
-    ├── layouts
-    │   └── Admin.jsx
-    ├── variables
-    │   ├── charts.jsx
-    │   ├── general.jsx
-    │   └── icons.jsx
-    ├── views
-    |   ├── addProduct.jsx
-    │   ├── Dashboard.jsx
-    │   ├── login.css
-    │   ├── login.jsx
-    │   ├── productItem.jsx
-    │   ├── signup.jsx
-    │   └── User.jsx
-    │   ├── Version.jsx
-    └── assets
-        ├── css
-        │   ├── paper-dashboard.css
-        │   ├── paper-dashboard.css.map
-        │   └── paper-dashboard.min.css
-        ├── demo
-        ├── fonts
-        ├── github
-        ├── img
-        │   └── faces
-        └── scss
-            ├── paper-dashboard
-            │   ├── cards
-            │   ├── mixins
-            │   ├── plugins
-            │   └── react
-            │       ├── custom
-            │       └── react-differences.scss
-            └── paper-dashboard.scss
-```
-
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-
-
-## Resources
-- Demo: https://demos.creative-tim.com/paper-dashboard-react/#/dashboard
-- Download Page: https://www.creative-tim.com/product/paper-dashboard-react
-- Documentation: https://demos.creative-tim.com/paper-dashboard-react/#/documentation/tutorial
-- License Agreement: https://www.creative-tim.com/license
-- Support: https://www.creative-tim.com/contact-us
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/paper-dashboard-react/issues)
-
-## Licensing
-
-- Copyright 2018 Creative Tim (https://www.creative-tim.com)
-- Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
